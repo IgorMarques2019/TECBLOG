@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLA</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+a {
+    color: orange;
+    text-decoration:none;
+}
+a:hover{
+    
+    text-decoration:underline;
+}
+
+#menu {
+    min-width:920px;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+    background-color: #f7b600;
+}
+
+.logo, .div-links {
+    text-align: center;
+    padding: 10px;
+}
+
+.logo h2 {
+    font-size: 2em;
+    color: rgb(31, 31, 31);
+}
+
+.logo h2 strong {
+    color: #ffffff;
+}
+
+.div-links span {
+    margin: -4px;
+}
+
+.div-links span a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.div-links span a:hover {
+    background-color: white;
+    color: #f7b600;
+}
+
+body {
+    background-color:#f4f4f4;
+    font-size: 1em;
+}
+
+#area-principal {
+    padding: 15px;
+    margin: 0 auto;
+    width: 920px;
+    
+}
+
+#area-postagem {
+    width: 660px;
+    float: left;
+   
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    ;
+}
+
+.postagem>h2 {
+    font-size:22px;
+    color: #f7b600;
+}
+
+#rodape {
+    text-align: center;
+    background-color: #ccc;
+    clear: both;
+    padding: 10px;
+}
+.data-postagem {
+    display: block;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    font-size:0.8em;
+    color:rgb(75, 74, 74);
+    border-bottom: 1px solid #f4f4f4;
+}
+.conteudo-lateral {
+    padding:08px;
+    background-color: white;
+    margin-bottom:20px;
+}
+
+h3 {
+    color:rgb(75, 74, 74);
+    font-size:1em;
+    padding:5px;
+    background-color:#ccc;
+}
+.postagem-lateral {
+    font-size:0.8em;
+    padding:5px;
+    border-bottom: 1px dotted rgba(75, 74, 74, 0.63);
+}
+    
+
+    </style>
+</head>
+
+<body>
+    <div id="menu">
+        <div class="logo">
+            <h2><strong>TEC</strong>BLOG</h2>
+        </div>
+        <div class="div-links">
+            <span><a href="index.html">HOME</a></span>
+            <span><a href="#">ABOUT</a></span>
+            <span><a href="#">WORKSHOP</a></span>
+            <span><a href="#">NOTIFICATIONS</a></span>
+        </div>
+    </div>
+    <div id="area-principal">
+        <div id="area-postagem">
+            <div class="postagem">
+                <h2>Lorem ipsum, dolor sit amet</h2>
+                <span class="data-postagem">Postado em : 20 de março de 2022</span>
+                <img width="620px" src="./imagem1.jpg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem excepturi quo expedita quidem
+                    alias quisquam? Voluptas modi dicta laboriosam a id harum, ullam optio inventore rerum magni
+                    voluptates, odio fuga!</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <!--FIM POSTAGEM-->
+
+            <div class="postagem">
+                <h2>Lorem ipsum, dolor sit amet</h2>
+                <span class="data-postagem">Postado em : 20 de março de 2022</span>
+                <img width="620px" src="./imagem2.jpg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem excepturi quo expedita quidem
+                    alias quisquam? Voluptas modi dicta laboriosam a id harum, ullam optio inventore rerum magni
+                    voluptates, odio fuga!</p>
+                <a href="#">Leia Mais</a>
+            </div>
+            <!--FIM POSTAGEM-->
+        </div>
+        <!--END AREA POSTING-->
+
+
+        <div id="area-lateral">
+            <div class="conteudo-lateral">
+                <h3>Postagens Recentes</h3>
+                <div class="postagem-lateral">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae omnis inventore nesciunt in
+                        cupiditate aliquid odio..</p>
+                    <a href="#rodape">Leia Mais</a>
+                </div>
+                <div class="postagem-lateral">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae omnis inventore nesciunt in
+                        cupiditate aliquid odio..</p>
+                    <a href="#rodape">Leia Mais</a>
+                </div>
+            </div>
+
+            <div class="conteudo-lateral">
+                <h3>Categorias</h3>
+                <a href="#">Jogos</a><br>
+                <a href="#">Celulares</a><br>
+                <a href="#">Informática</a><br>
+                <a href="#">Eletronicos</a><br>
+                  
+                
+            </div>
+
+
+        </div><!-- FIM AREA LATERAL-->
+        <div id="rodape">
+            Todos os direitos Reservados
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
